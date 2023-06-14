@@ -11,6 +11,7 @@
 		CE8505752A30E75500AA228B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8505742A30E75500AA228B /* ContentView.swift */; };
 		CE8505772A30E75800AA228B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8505762A30E75800AA228B /* Assets.xcassets */; };
 		CE85057A2A30E75800AA228B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8505792A30E75800AA228B /* Preview Assets.xcassets */; };
+		CE8505812A30EF7E00AA228B /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		CE8505742A30E75500AA228B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8505762A30E75800AA228B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8505792A30E75800AA228B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anton-Regular.ttf"; sourceTree = "<group>"; };
+		CE8505822A30F01D00AA228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		CE8505712A30E75500AA228B /* QAQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				CE8505822A30F01D00AA228B /* Info.plist */,
 				CE8505722A30E75500AA228B /* QAQuizApp.swift */,
 				CE8505742A30E75500AA228B /* ContentView.swift */,
 				CE8505762A30E75800AA228B /* Assets.xcassets */,
+				CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */,
 				CE8505782A30E75800AA228B /* Preview Content */,
 			);
 			path = QAQuiz;
@@ -127,6 +132,7 @@
 			files = (
 				CE85057A2A30E75800AA228B /* Preview Assets.xcassets in Resources */,
 				CE8505772A30E75800AA228B /* Assets.xcassets in Resources */,
+				CE8505812A30EF7E00AA228B /* Anton-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = JZ9WS35K59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QAQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = JZ9WS35K59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QAQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
