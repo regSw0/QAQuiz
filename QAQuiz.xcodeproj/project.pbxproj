@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE739DCF2A43569E0019B7EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */; };
+		CE739DD22A435A6D0019B7EE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE739DD12A435A6D0019B7EE /* FirebaseAnalytics */; };
+		CE739DD42A435A6D0019B7EE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE739DD32A435A6D0019B7EE /* FirebaseFirestore */; };
+		CE739DD62A435A6D0019B7EE /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE739DD52A435A6D0019B7EE /* FirebaseFirestoreSwift */; };
 		CE8505732A30E75500AA228B /* QAQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8505722A30E75500AA228B /* QAQuizApp.swift */; };
 		CE8505752A30E75500AA228B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8505742A30E75500AA228B /* ContentView.swift */; };
 		CE8505772A30E75800AA228B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8505762A30E75800AA228B /* Assets.xcassets */; };
@@ -15,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE85056F2A30E75500AA228B /* QAQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QAQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8505722A30E75500AA228B /* QAQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAQuizApp.swift; sourceTree = "<group>"; };
 		CE8505742A30E75500AA228B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		CE8505792A30E75800AA228B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anton-Regular.ttf"; sourceTree = "<group>"; };
 		CE8505822A30F01D00AA228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEEC0FEC2A4C969500751888 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE739DD22A435A6D0019B7EE /* FirebaseAnalytics in Frameworks */,
+				CE739DD42A435A6D0019B7EE /* FirebaseFirestore in Frameworks */,
+				CE739DD62A435A6D0019B7EE /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +47,7 @@
 		CE8505662A30E75500AA228B = {
 			isa = PBXGroup;
 			children = (
+				CEEC0FEC2A4C969500751888 /* README.md */,
 				CE8505712A30E75500AA228B /* QAQuiz */,
 				CE8505702A30E75500AA228B /* Products */,
 			);
@@ -58,6 +68,7 @@
 				CE8505722A30E75500AA228B /* QAQuizApp.swift */,
 				CE8505742A30E75500AA228B /* ContentView.swift */,
 				CE8505762A30E75800AA228B /* Assets.xcassets */,
+				CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */,
 				CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */,
 				CE8505782A30E75800AA228B /* Preview Content */,
 			);
@@ -88,6 +99,11 @@
 			dependencies = (
 			);
 			name = QAQuiz;
+			packageProductDependencies = (
+				CE739DD12A435A6D0019B7EE /* FirebaseAnalytics */,
+				CE739DD32A435A6D0019B7EE /* FirebaseFirestore */,
+				CE739DD52A435A6D0019B7EE /* FirebaseFirestoreSwift */,
+			);
 			productName = QAQuiz;
 			productReference = CE85056F2A30E75500AA228B /* QAQuiz.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +132,9 @@
 				Base,
 			);
 			mainGroup = CE8505662A30E75500AA228B;
+			packageReferences = (
+				CE739DD02A435A6D0019B7EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CE8505702A30E75500AA228B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE85057A2A30E75800AA228B /* Preview Assets.xcassets in Resources */,
+				CE739DCF2A43569E0019B7EE /* GoogleService-Info.plist in Resources */,
 				CE8505772A30E75800AA228B /* Assets.xcassets in Resources */,
 				CE8505812A30EF7E00AA228B /* Anton-Regular.ttf in Resources */,
 			);
@@ -347,6 +367,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE739DD02A435A6D0019B7EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE739DD12A435A6D0019B7EE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE739DD02A435A6D0019B7EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CE739DD32A435A6D0019B7EE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE739DD02A435A6D0019B7EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CE739DD52A435A6D0019B7EE /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE739DD02A435A6D0019B7EE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE8505672A30E75500AA228B /* Project object */;
 }
