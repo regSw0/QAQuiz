@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE18356B2A684E5600F802CA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18356A2A684E5600F802CA /* WelcomeView.swift */; };
+		CE18356D2A6852DF00F802CA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18356C2A6852DF00F802CA /* Test.swift */; };
+		CE4997E42A5DCFB10028B1E9 /* QuestionsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4997E32A5DCFB10028B1E9 /* QuestionsBrain.swift */; };
+		CE6F31422A8D2EE100CFB718 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED702F2A718034002FE954 /* SignUp.swift */; };
+		CE6F31442A8D318900CFB718 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F31432A8D318900CFB718 /* SignUpViewModel.swift */; };
+		CE6F31462A8D36C700CFB718 /* Step2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F31452A8D36C700CFB718 /* Step2View.swift */; };
 		CE739DCF2A43569E0019B7EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */; };
 		CE739DD22A435A6D0019B7EE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE739DD12A435A6D0019B7EE /* FirebaseAnalytics */; };
 		CE739DD42A435A6D0019B7EE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE739DD32A435A6D0019B7EE /* FirebaseFirestore */; };
@@ -16,9 +22,21 @@
 		CE8505772A30E75800AA228B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8505762A30E75800AA228B /* Assets.xcassets */; };
 		CE85057A2A30E75800AA228B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8505792A30E75800AA228B /* Preview Assets.xcassets */; };
 		CE8505812A30EF7E00AA228B /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */; };
+		CEA5D5FE2A84045B00058D47 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5D5FD2A84045B00058D47 /* SignUpView.swift */; };
+		CEA5D6002A8404A500058D47 /* Step1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5D5FF2A8404A500058D47 /* Step1View.swift */; };
+		CEA5D6022A8404E000058D47 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5D6012A8404E000058D47 /* AuthTextField.swift */; };
+		CED049B92A5DBF5E0012F927 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED049B82A5DBF5E0012F927 /* QuestionView.swift */; };
+		CED049BB2A5DBF9C0012F927 /* QuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED049BA2A5DBF9C0012F927 /* QuestionsViewModel.swift */; };
+		CED049BD2A5DC0A60012F927 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED049BC2A5DC0A60012F927 /* Question.swift */; };
+		CEEC0FF22A4C9BD400751888 /* QuizBeginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEC0FF12A4C9BD400751888 /* QuizBeginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE18356A2A684E5600F802CA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CE18356C2A6852DF00F802CA /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		CE4997E32A5DCFB10028B1E9 /* QuestionsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsBrain.swift; sourceTree = "<group>"; };
+		CE6F31432A8D318900CFB718 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		CE6F31452A8D36C700CFB718 /* Step2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2View.swift; sourceTree = "<group>"; };
 		CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE85056F2A30E75500AA228B /* QAQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QAQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8505722A30E75500AA228B /* QAQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAQuizApp.swift; sourceTree = "<group>"; };
@@ -27,7 +45,15 @@
 		CE8505792A30E75800AA228B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anton-Regular.ttf"; sourceTree = "<group>"; };
 		CE8505822A30F01D00AA228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEA5D5FD2A84045B00058D47 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CEA5D5FF2A8404A500058D47 /* Step1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1View.swift; sourceTree = "<group>"; };
+		CEA5D6012A8404E000058D47 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		CED049B82A5DBF5E0012F927 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		CED049BA2A5DBF9C0012F927 /* QuestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewModel.swift; sourceTree = "<group>"; };
+		CED049BC2A5DC0A60012F927 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CEEC0FEC2A4C969500751888 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEEC0FF12A4C9BD400751888 /* QuizBeginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBeginView.swift; sourceTree = "<group>"; };
+		CEED702F2A718034002FE954 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1835692A684E2F00F802CA /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				CE18356A2A684E5600F802CA /* WelcomeView.swift */,
+				CE18356C2A6852DF00F802CA /* Test.swift */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
 		CE8505662A30E75500AA228B = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +99,9 @@
 		CE8505712A30E75500AA228B /* QAQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				CE8505822A30F01D00AA228B /* Info.plist */,
-				CE8505722A30E75500AA228B /* QAQuizApp.swift */,
-				CE8505742A30E75500AA228B /* ContentView.swift */,
-				CE8505762A30E75800AA228B /* Assets.xcassets */,
-				CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */,
-				CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */,
-				CE8505782A30E75800AA228B /* Preview Content */,
+				CEEC0FED2A4C9A1C00751888 /* Supporting files */,
+				CEEC0FEE2A4C9AD000751888 /* App */,
+				CEEC0FEF2A4C9B0700751888 /* Features */,
 			);
 			path = QAQuiz;
 			sourceTree = "<group>";
@@ -81,6 +112,78 @@
 				CE8505792A30E75800AA228B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA5D5FB2A84041900058D47 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5D5FC2A84043200058D47 /* Sign Up */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CEA5D5FC2A84043200058D47 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				CEED702F2A718034002FE954 /* SignUp.swift */,
+				CEA5D5FD2A84045B00058D47 /* SignUpView.swift */,
+				CEA5D5FF2A8404A500058D47 /* Step1View.swift */,
+				CE6F31452A8D36C700CFB718 /* Step2View.swift */,
+				CEA5D6012A8404E000058D47 /* AuthTextField.swift */,
+				CE6F31432A8D318900CFB718 /* SignUpViewModel.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		CED049B72A5DBE740012F927 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				CED049B82A5DBF5E0012F927 /* QuestionView.swift */,
+				CED049BA2A5DBF9C0012F927 /* QuestionsViewModel.swift */,
+				CED049BC2A5DC0A60012F927 /* Question.swift */,
+				CE4997E32A5DCFB10028B1E9 /* QuestionsBrain.swift */,
+			);
+			path = Questions;
+			sourceTree = "<group>";
+		};
+		CEEC0FED2A4C9A1C00751888 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8505762A30E75800AA228B /* Assets.xcassets */,
+				CE739DCE2A43569D0019B7EE /* GoogleService-Info.plist */,
+				CE8505822A30F01D00AA228B /* Info.plist */,
+				CE8505802A30EF7E00AA228B /* Anton-Regular.ttf */,
+				CE8505782A30E75800AA228B /* Preview Content */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		CEEC0FEE2A4C9AD000751888 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE8505722A30E75500AA228B /* QAQuizApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		CEEC0FEF2A4C9B0700751888 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5D5FB2A84041900058D47 /* Auth */,
+				CE1835692A684E2F00F802CA /* Welcome */,
+				CED049B72A5DBE740012F927 /* Questions */,
+				CEEC0FF02A4C9B9900751888 /* QuizBegin */,
+				CE8505742A30E75500AA228B /* ContentView.swift */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		CEEC0FF02A4C9B9900751888 /* QuizBegin */ = {
+			isa = PBXGroup;
+			children = (
+				CEEC0FF12A4C9BD400751888 /* QuizBeginView.swift */,
+			);
+			name = QuizBegin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,8 +266,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED049B92A5DBF5E0012F927 /* QuestionView.swift in Sources */,
+				CEA5D6002A8404A500058D47 /* Step1View.swift in Sources */,
+				CED049BB2A5DBF9C0012F927 /* QuestionsViewModel.swift in Sources */,
+				CE18356D2A6852DF00F802CA /* Test.swift in Sources */,
+				CE4997E42A5DCFB10028B1E9 /* QuestionsBrain.swift in Sources */,
+				CE18356B2A684E5600F802CA /* WelcomeView.swift in Sources */,
+				CE6F31442A8D318900CFB718 /* SignUpViewModel.swift in Sources */,
 				CE8505752A30E75500AA228B /* ContentView.swift in Sources */,
+				CE6F31462A8D36C700CFB718 /* Step2View.swift in Sources */,
+				CEA5D5FE2A84045B00058D47 /* SignUpView.swift in Sources */,
+				CED049BD2A5DC0A60012F927 /* Question.swift in Sources */,
+				CEA5D6022A8404E000058D47 /* AuthTextField.swift in Sources */,
 				CE8505732A30E75500AA228B /* QAQuizApp.swift in Sources */,
+				CE6F31422A8D2EE100CFB718 /* SignUp.swift in Sources */,
+				CEEC0FF22A4C9BD400751888 /* QuizBeginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +418,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,6 +449,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

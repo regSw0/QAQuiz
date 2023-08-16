@@ -54,9 +54,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Question: Identifiable, Codable {
-    @DocumentID var id: String?
-    let title: String
-    let answers: [String]
-    let rightAnswer: String
-}
+
